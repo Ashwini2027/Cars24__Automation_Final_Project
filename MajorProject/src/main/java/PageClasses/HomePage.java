@@ -69,13 +69,13 @@ public class HomePage extends LocatorsRepository {
 	}
 	
 	public String generateFileName() {
-		SimpleDateFormat dateformat = new SimpleDateFormat("yyyy-MM-dd_HH-mm-ss");
-		String date = dateformat.format(new Date());
-
-		String filename = date + ".png";
-		System.out.println("Generated screenshot filename: " + filename);
-		return filename;
-		
+//		SimpleDateFormat dateformat = new SimpleDateFormat("yyyy-MM-dd_HH-mm-ss");
+//		String date = dateformat.format(new Date());
+//
+//		String filename = date + ".png";
+//		System.out.println("Generated screenshot filename: " + filename);
+//		return filename;
+		return new SimpleDateFormat("yyyy-MM-dd_HH-mm-ss").format(new Date()) + ".png";
 	}
 
 		
