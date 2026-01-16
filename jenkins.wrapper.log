@@ -1,0 +1,57 @@
+2025-12-01 20:01:49,202 DEBUG - Starting WinSW in the service mode
+2025-12-01 20:01:49,241 INFO  - Starting C:\Program Files\Java\jdk-21\bin\java.exe -Xrs -Xmx256m -Dhudson.lifecycle=hudson.lifecycle.WindowsServiceLifecycle -jar "D:\Eclipse 2025\jenkins.war" --httpPort=8080 --webroot="C:\ProgramData\Jenkins\war"
+2025-12-01 20:01:49,253 INFO  - Extension loaded: killOnStartup
+2025-12-01 20:01:49,261 DEBUG - Checking the potentially runaway process with PID=22920
+2025-12-01 20:01:49,283 DEBUG - No runaway process with PID=22920. The process has been already stopped.
+2025-12-01 20:01:49,311 INFO  - Started process 12324
+2025-12-01 20:01:49,317 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to winsw.SizeBasedRollingLogAppender
+2025-12-01 20:01:49,326 INFO  - Recording PID of the started process:12324. PID file destination is C:\ProgramData\Jenkins\jenkins.pid
+2025-12-01 20:59:20,369 DEBUG - Starting WinSW in the CLI mode
+2025-12-01 20:59:21,738 INFO  - Restarting the service with id 'jenkins'
+2025-12-01 20:59:21,746 DEBUG - Completed. Exit code is 0
+2025-12-01 20:59:21,837 DEBUG - Starting WinSW in the CLI mode
+2025-12-01 20:59:22,190 INFO  - Restarting the service with id 'jenkins'
+2025-12-01 20:59:22,237 INFO  - Stopping jenkins
+2025-12-01 20:59:22,237 DEBUG - ProcessKill 12324
+2025-12-01 20:59:22,350 INFO  - Found child process: 7640 Name: conhost.exe
+2025-12-01 20:59:22,414 INFO  - Stopping process 7640
+2025-12-01 20:59:22,416 INFO  - Send SIGINT 7640
+2025-12-01 20:59:22,417 WARN  - SIGINT to 7640 failed - Killing as fallback
+2025-12-01 20:59:22,418 INFO  - Stopping process 12324
+2025-12-01 20:59:22,419 INFO  - Send SIGINT 12324
+2025-12-01 20:59:22,420 WARN  - SIGINT to 12324 failed - Killing as fallback
+2025-12-01 20:59:22,423 INFO  - Finished jenkins
+2025-12-01 20:59:22,424 DEBUG - Completed. Exit code is 0
+2025-12-01 20:59:23,752 DEBUG - Starting WinSW in the service mode
+2025-12-01 20:59:23,766 DEBUG - Completed. Exit code is 0
+2025-12-01 20:59:23,775 INFO  - Starting C:\Program Files\Java\jdk-21\bin\java.exe -Xrs -Xmx256m -Dhudson.lifecycle=hudson.lifecycle.WindowsServiceLifecycle -jar "D:\Eclipse 2025\jenkins.war" --httpPort=8080 --webroot="C:\ProgramData\Jenkins\war"
+2025-12-01 20:59:23,783 INFO  - Extension loaded: killOnStartup
+2025-12-01 20:59:23,787 DEBUG - Checking the potentially runaway process with PID=12324
+2025-12-01 20:59:23,794 DEBUG - No runaway process with PID=12324. The process has been already stopped.
+2025-12-01 20:59:23,812 INFO  - Started process 10896
+2025-12-01 20:59:23,818 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to winsw.SizeBasedRollingLogAppender
+2025-12-01 20:59:23,821 INFO  - Recording PID of the started process:10896. PID file destination is C:\ProgramData\Jenkins\jenkins.pid
+2025-12-11 03:59:42,792 DEBUG - Starting WinSW in the service mode
+2025-12-11 03:59:42,918 INFO  - Starting C:\Program Files\Java\jdk-21\bin\java.exe -Xrs -Xmx256m -Dhudson.lifecycle=hudson.lifecycle.WindowsServiceLifecycle -jar "D:\Eclipse 2025\jenkins.war" --httpPort=8080 --webroot="C:\ProgramData\Jenkins\war"
+2025-12-11 03:59:42,952 INFO  - Extension loaded: killOnStartup
+2025-12-11 03:59:42,978 DEBUG - Checking the potentially runaway process with PID=10896
+2025-12-11 03:59:43,052 DEBUG - No runaway process with PID=10896. The process has been already stopped.
+2025-12-11 03:59:43,147 INFO  - Started process 6752
+2025-12-11 03:59:43,163 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to winsw.SizeBasedRollingLogAppender
+2025-12-11 03:59:43,180 INFO  - Recording PID of the started process:6752. PID file destination is C:\ProgramData\Jenkins\jenkins.pid
+2025-12-11 04:02:56,241 DEBUG - Starting WinSW in the service mode
+2025-12-11 04:02:56,913 INFO  - Starting C:\Program Files\Java\jdk-21\bin\java.exe -Xrs -Xmx256m -Dhudson.lifecycle=hudson.lifecycle.WindowsServiceLifecycle -jar "D:\Eclipse 2025\jenkins.war" --httpPort=8080 --webroot="C:\ProgramData\Jenkins\war"
+2025-12-11 04:02:57,102 INFO  - Extension loaded: killOnStartup
+2025-12-11 04:02:57,263 DEBUG - Checking the potentially runaway process with PID=6752
+2025-12-11 04:02:57,374 DEBUG - No runaway process with PID=6752. The process has been already stopped.
+2025-12-11 04:02:57,560 INFO  - Started process 5396
+2025-12-11 04:02:57,772 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to winsw.SizeBasedRollingLogAppender
+2025-12-11 04:02:57,776 INFO  - Recording PID of the started process:5396. PID file destination is C:\ProgramData\Jenkins\jenkins.pid
+2025-12-18 19:05:53,171 DEBUG - Starting WinSW in the service mode
+2025-12-18 19:05:53,318 INFO  - Starting C:\Program Files\Java\jdk-21\bin\java.exe -Xrs -Xmx256m -Dhudson.lifecycle=hudson.lifecycle.WindowsServiceLifecycle -jar "D:\Eclipse 2025\jenkins.war" --httpPort=8080 --webroot="C:\ProgramData\Jenkins\war"
+2025-12-18 19:05:53,346 INFO  - Extension loaded: killOnStartup
+2025-12-18 19:05:53,363 DEBUG - Checking the potentially runaway process with PID=5396
+2025-12-18 19:05:53,398 DEBUG - No runaway process with PID=5396. The process has been already stopped.
+2025-12-18 19:05:53,474 INFO  - Started process 6884
+2025-12-18 19:05:53,494 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to winsw.SizeBasedRollingLogAppender
+2025-12-18 19:05:53,531 INFO  - Recording PID of the started process:6884. PID file destination is C:\ProgramData\Jenkins\jenkins.pid
