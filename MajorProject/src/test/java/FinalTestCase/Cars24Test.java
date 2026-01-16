@@ -1,6 +1,9 @@
 package FinalTestCase;
 
 import org.testng.annotations.Test;
+
+import com.aventstack.extentreports.Status;
+
 import BaseClasses.BaseClass;
 import PageClasses.BuyCarPage;
 import PageClasses.HomePage;
@@ -19,27 +22,28 @@ public class Cars24Test  extends BaseClass {
 	
 	public void runCars24Test() throws Exception {
 
-	    test = extent.createTest("CARS24 Buy Car Flow Test");
+		logger=report.createTest("Test One");
 	    
+		logger.log(Status.INFO, "Initializing the Browser");
 	    invokeBrowser("chrome");
-	    test.info("Browser launched");
+        logger.log(Status.PASS, "Browser Initialized Successfully");
 
 	    homePage = openWebsite();
 //	    homePage.loginToApplication();
-	    test.pass("Opened CARS24 website");
+	    logger.log(Status.PASS, "Login Process Completed");
 
 	    sellCarPage = homePage.navigateToSellCarPage();
 //	    sellCarPage.sellCarProcess();
-	    test.info("Sell car process completed");
+	    logger.log(Status.PASS, "Sell Car process completed");
 
 	    buyCarPage = sellCarPage.navigateToBuyCarPage();
 	    buyCarPage.buyCarProcess();
-	    test.pass("Buy Car process completed");
+	    logger.log(Status.PASS, "Buy Car process completed");
 
 	    usedCarDetailsPage = buyCarPage.navigateToUsedCarDetailsPage();
 	    String carTitle = usedCarDetailsPage.getCarTitle();
 	    usedCarDetailsPage.scrollDownUCDPage();
-	    test.pass("Car title fetched: " + carTitle);
+	    logger.log(Status.PASS, "Used Car Details process completed");
 	}
 }
 

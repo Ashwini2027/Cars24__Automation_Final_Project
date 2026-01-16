@@ -1,18 +1,13 @@
 package BaseClasses;
 import Reports.ExtentReportManager;
-
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
-import java.io.File;
 import java.io.IOException;
 import java.time.Duration;
 import java.util.concurrent.TimeoutException;
 
-import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -22,10 +17,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterMethod;
-import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.BeforeSuite;
-
 import PageClasses.HomePage;
 
 
@@ -37,15 +29,15 @@ public class BaseClass {
 	public WebDriver driver;
 	public WebDriverWait waits;
 	public HomePage homePage;
-	public ExtentReports extent;
-	public ExtentTest test;
+	public ExtentReports report = ExtentReportManager.getExtentReport();
+	public ExtentTest logger;
 
 	
 	
-	@BeforeSuite
-	public void setupReport() {
-	    extent = ExtentReportManager.getExtentReport();
-	}
+//	@BeforeSuite
+//	public void setupReport() {
+//	    extent = ExtentReportManager.getExtentReport();
+//	}
 
 	@BeforeMethod
 	public void beforeEachTest() {
@@ -123,8 +115,8 @@ public class BaseClass {
 		 driver.close();
 	 }
 	 
-	 @AfterSuite
-	    public void flushReport() {
-	        extent.flush();
-	    }
+//	 @AfterSuite
+//	    public void flushReport() {
+//	        extent.flush();
+//	    }
 }
